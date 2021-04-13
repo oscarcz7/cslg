@@ -1,72 +1,100 @@
 <template>
   <div class="home">
-    <section class="hero is-dark">
+    <section class="hero is-light shadow">
       <div class="hero-body">
         <div class="container">
-          <!-- <h1 class="title">Welcome to the Animal Rescue League</h1>
-          <h2 class="subtitle">
-            Make sure you check out our upcoming events below
-          </h2>
-          <div class="button-block">
-            <button class="button is-xl is-dark">
-              Sign Up to Browse Events
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/banner/banner1.jpg"  alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/banner/banner2.jpg"  alt="..." />
+              </div>
+              <!-- <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="..." />
+              </div> -->
+            </div>
+            <button
+              class="carousel-control-prev "
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon "
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
             </button>
-          </div> -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon "
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
 
-    <EventsList class="mt-6"/>
+    <div>
+
+    </div>
+
+    <section class="container mt-4 p-6 ">
+      <Access />
+    </section>
+    
+    
+    
+    
   </div>
 </template>
 <script>
-import EventsList from "../components/EventsList";
+import Access from "../components/Access.vue";
 
 export default {
   name: "home",
   components: {
-    EventsList,
+    Access,
   },
 };
 </script>
 <style lang="scss" scoped>
-.hero {
-  text-align: center;
-  background-image: url("../../src/assets/img/banner/banner1.jpg");
-  background-size: 550px;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 550px;
-}
-.hero-body .title {
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
-  padding: 40px 0 20px 0;
-  font-size: 60px;
-}
-.subtitle {
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
-  font-size: 30px;
-}
-.button-block {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  position: absolute;
-  bottom: -150px;
-  .button {
-    margin-right: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .welcome {
-    width: 400px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-.is-xl {
-  font-size: 1.7rem;
+.carousel-control-prev-icon .carousel-control-next-icon {
+  height: 5rem  !important;
 }
 </style>

@@ -19,7 +19,7 @@ const routes = [
     path: "/event/:id",
     name: "eventSingle",
     component: () => import("../views/EventSingle.vue"),
-  },
+  }
 ]
 
 const router = createRouter({

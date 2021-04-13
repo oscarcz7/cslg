@@ -1,7 +1,7 @@
 <template>
   <div class="event-card">
     <div class="card">
-      <div class="card-content">
+      <div class="card-content ">
         <h2 class="is-size-4 has-text-weight-bold">{{ event.name }}</h2>
         <!-- <small class="event-date">{{ event.date }}</small> -->
         <!-- <span>{{ event.location }}</span> -->
@@ -16,7 +16,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .card {
-  // background-image: url("https://placekitten.com/400/400");
   height: 200px;
   background-position: center;
   background-size: cover;
