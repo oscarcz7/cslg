@@ -16,7 +16,7 @@
       </div>
     </section>
 
-    <EventsList />
+    <EventsList class="mt-6"/>
   </div>
 </template>
 <script>

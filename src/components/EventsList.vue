@@ -1,6 +1,6 @@
 <template>
   <div class="events container">
-    <h2 class="subtitle is-3">Check out our upcoming events</h2>
+    <h2 class="subtitle is-3">Enlaces Directos</h2>
     <div class="columns is-multiline">
       <div
         v-for="event in events"
