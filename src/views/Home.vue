@@ -69,19 +69,9 @@
         </div>
       </div>
     </section>
-
+  
     <section class="container mt-5 p-5 shadow">
-      <iframe
-        src="//vt.plushglobalmedia.com/tour/TT17LF185S"
-        width="100%"
-        height="450"
-        allowfullscreen="true"
-        mozallowfullscreen="true"
-        webkitallowfullscreen="true"
-        allowvr="yes"
-        allow="vr; xr; accelerometer; gyroscope;"
-        ><p>Your browser does not support iframes.</p></iframe
-      >
+      <iframe src="//vt.plushglobalmedia.com/tour/TT17LMCOIA" width="100%" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" allowvr="yes" allow="vr; xr; accelerometer; gyroscope;"><p>Your browser does not support iframes.</p></iframe>
     </section>
 
     <section class="container mt-4 p-6">
