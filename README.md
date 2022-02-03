@@ -1,6 +1,6 @@
-# cslg
+# Vue js Web Design v.1
 
-# WEB PAGE FOR UNIDAD EDUCATIVA SAN LUIS GONZAGA
+# UNIDAD EDUCATIVA SAN LUIS GONZAGA WEB PAGE
 
 This page is a recreation of the principal web page of this HS. This static page is made with Vue js framework and Bulma.io css framework.
 This page is upload to Netlify in the next url -> https://hungry-kepler-d0da11.netlify.app
